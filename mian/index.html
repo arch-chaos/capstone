@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreWorld Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="images/logo.png" alt="ExploreWorld Logo">
+                    <h1><a href="#">ExploreWorld></a></h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Discover Your Next Adventure</h2>
+                <p>Explore breathtaking destinations with our curated travel packages</p>
+                <a href="#packages" class="cta-button">Explore Packages</a>
+            </div>
+        </section>
+
+        <section id="packages" class="tour-packages">
+            <div class="container">
+                <h2>Featured Tour Packages</h2>
+                <div class="packages-grid">
+                    <article class="package-card">
+                        <img src="images/paris.jpg" alt="Paris Tour Package">
+                        <div class="package-info">
+                            <h3>Paris Romance</h3>
+                            <p>Experience the City of Light with guided tours of iconic landmarks.</p>
+                            <span class="price">$1,299</span>
+                            <a href="#contact" class="book-now">Book Now</a>
+                        </div>
+                    </article>
+                    <article class="package-card">
+                        <img src="images/tokyo.jpg" alt="Tokyo Adventure Package">
+                        <div class="package-info">
+                            <h3>Tokyo Adventure</h3>
+                            <p>Immerse yourself in Japanese culture, from temples to neon-lit streets.</p>
+                            <span class="price">$1,499</span>
+                            <a href="#contact" class="book-now">Book Now</a>
+                        </div>
+                    </article>
+                    <article class="package-card">
+                        <img src="images/bali.jpg" alt="Bali Relaxation Package">
+                        <div class="package-info">
+                            <h3>Bali Relaxation</h3>
+                            <p>Unwind on pristine beaches and explore lush rice terraces.</p>
+                            <span class="price">$999</span>
+                            <a href="#contact" class="book-now">Book Now</a>
+                        </div>
+                    </article>
+                    <article class="package-card">
+                        <img src="images/newyork.jpg" alt="New York City Break Package">
+                        <div class="package-info">
+                            <h3>New York City Break</h3>
+                            <p>Experience the energy of the Big Apple with Broadway shows and skyline views.</p>
+                            <span class="price">$1,199</span>
+                            <a href="#contact" class="book-now">Book Now</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2>What Our Travelers Say</h2>
+                <div class="reviews-grid">
+                    <article class="review-card">
+                        <p>"Amazing experience! The Paris package was perfectly organized."</p>
+                        <cite>- Sarah Johnson</cite>
+                    </article>
+                    <article class="review-card">
+                        <p>"Tokyo adventure exceeded all expectations. Highly recommend!"</p>
+                        <cite>- Mike Chen</cite>
+                    </article>
+                    <article class="review-card">
+                        <p>"Bali was pure bliss. ExploreWorld made it unforgettable."</p>
+                        <cite>- Emma Davis</cite>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="inquiry-form">
+            <div class="container">
+                <h2>Plan Your Dream Trip</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="destination">Preferred Destination</label>
+                        <select id="destination" name="destination" required>
+                            <option value="">Select a destination</option>
+                            <option value="paris">Paris</option>
+                            <option value="tokyo">Tokyo</option>
+                            <option value="bali">Bali</option>
+                            <option value="newyork">New York</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Additional Details</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell us about your travel preferences"></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Inquiry</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ExploreWorld</h3>
+                    <p>Your gateway to unforgettable adventures around the globe.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#packages">Packages</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                        <a href="#" aria-label="Twitter"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a>
+                        <a href="#" aria-label="Instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12.017 0C8.396 0 7.992.014 6.813.064c-1.179.05-1.987.241-2.694.512a5.417 5.417 0 00-1.95 1.268 5.417 5.417 0 00-1.268 1.95C.76 4.5.57 5.308.52 6.487.47 7.666.455 8.07.455 11.69s.014 3.884.064 5.063c.05 1.179.241 1.987.512 2.694a5.417 5.417 0 001.268 1.95 5.417 5.417 0 001.95 1.268c.707.271 1.515.462 2.694.512 1.179.05 1.583.064 5.203.064s3.884-.014 5.063-.064c1.179-.05 1.987-.241 2.694-.512a5.417 5.417 0 001.95-1.268 5.417 5.417 0 001.268-1.95c.271-.707.462-1.515.512-2.694.05-1.179.064-1.583.064-5.203s-.014-3.884-.064-5.063c-.05-1.179-.241-1.987-.512-2.694a5.417 5.417 0 00-1.268-1.95 5.417 5.417 0 00-1.95-1.268C16.5.76 15.692.57 14.513.52 13.334.47 12.93.455 12.29.455zM11.69 2.07c3.584 0 4.008.014 5.418.08.688.034 1.063.146 1.31.242.327.128.562.282.807.527.245.245.399.48.527.807.096.247.208.622.242 1.31.046 1.41.08 1.834.08 5.418s-.034 4.008-.08 5.418c-.034.688-.146 1.063-.242 1.31-.128.327-.282.562-.527.807a2.417 2.417 0 01-.807.527c-.247.096-.622.208-1.31.242-1.41.046-1.834.08-5.418.08s-4.008-.034-5.418-.08c-.688-.034-1.063-.146-1.31-.242a2.417 2.417 0 01-.807-.527 2.417 2.417 0 01-.527-.807c-.096-.247-.208-.622-.242-1.31C2.034 15.698 2 15.274 2 11.69s.034-4.008.08-5.418c.034-.688.146-1.063.242-1.31.128-.327.282-.562.527-.807a2.417 2.417 0 01.807-.527c.247-.096.622-.208 1.31-.242 1.41-.046 1.834-.08 5.418-.08z"/><path d="M11.69 6.07a5.62 5.62 0 100 11.24 5.62 5.62 0 000-11.24zm0 9.26a3.64 3.64 0 110-7.28 3.64 3.64 0 010 7.28z"/><circle cx="16.812" cy="7.188" r="1.44"/></svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 ExploreWorld Travel Agency. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
